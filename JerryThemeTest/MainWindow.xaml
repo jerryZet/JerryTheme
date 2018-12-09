@@ -5,9 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:jt="clr-namespace:JerryTheme;assembly=JerryTheme"
              xmlns:local="clr-namespace:JerryThemeTest"
-             mc:Ignorable="d" HeaderBarBackground="#ff0000"
-             Title="DUPAAAAA" Height="450" Width="800">
+             mc:Ignorable="d" Title="DUPAAAAA" Height="450" Width="800">
     <Grid Margin="16" Background="#ffffff">
-        <TextBlock Text="DUPA"/>
+        <Button x:Name="btnDUPA" Content="DUPA" Click="BtnDUPA_Click"/>
     </Grid>
 </jt:JTWindow>
