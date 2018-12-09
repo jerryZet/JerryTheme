@@ -1,4 +1,4 @@
-# JerryTheme
+# JerryTheme for WPF
 Theme project for WPF apps
 
 # Current Tasks
