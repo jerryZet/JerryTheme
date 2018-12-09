@@ -1,0 +1,14 @@
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Debug\JerryTheme.dll
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Debug\JerryTheme.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csprojAssemblyReference.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.Properties.Resources.resources
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csproj.GenerateResource.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csproj.CoreCompileInputs.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.dll
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme_MarkupCompile.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme_MarkupCompile.lref
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\Dictionary1.baml
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\Themes\Generic.baml
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.g.resources

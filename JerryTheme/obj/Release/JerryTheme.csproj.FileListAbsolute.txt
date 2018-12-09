@@ -1,0 +1,8 @@
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Release\JerryTheme.dll
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Release\JerryTheme.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.Properties.Resources.resources
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csproj.GenerateResource.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csproj.CoreCompileInputs.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.dll
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csprojAssemblyReference.cache

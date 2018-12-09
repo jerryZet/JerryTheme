@@ -1,0 +1,17 @@
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.csprojAssemblyReference.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\App.g.cs
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest_MarkupCompile.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\bin\Release\JerryThemeTest.exe
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\bin\Release\JerryThemeTest.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\bin\Release\JerryTheme.dll
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\bin\Release\JerryTheme.pdb
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\MainWindow.g.cs
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest_MarkupCompile.lref
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\MainWindow.baml
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.g.resources
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.Properties.Resources.resources
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.csproj.GenerateResource.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.csproj.CoreCompileInputs.cache
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.csproj.CopyComplete
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.exe
+C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.pdb
