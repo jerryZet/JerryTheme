@@ -1,6 +1,5 @@
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Debug\JerryTheme.dll
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\bin\Debug\JerryTheme.pdb
-C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csprojAssemblyReference.cache
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.Properties.Resources.resources
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csproj.GenerateResource.cache
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Debug\JerryTheme.csproj.CoreCompileInputs.cache

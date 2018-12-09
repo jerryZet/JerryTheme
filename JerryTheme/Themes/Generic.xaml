@@ -2,15 +2,51 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:JerryTheme">
 
-    <!-- DEFAULT COLORS -->
+    <!-- DEFAULT BRUSHES AND COLORS -->
     <SolidColorBrush x:Key="BRS_JTWindow_Background" Color="#EFF5EA"/>
-    <SolidColorBrush x:Key="BRS_JTWindow_Border" Color="#1b5e20"/>
+    <SolidColorBrush x:Key="BRS_JTWindow_Border" Color="#003300"/>
+    <SolidColorBrush x:Key="BRS_JTWindow_Header_Background" Color="#1b5e20"/>
+
+
+    <!-- JTWindow HEADER BUTTON STYLE AND CONTOL TEMPLATE -->
+    <Style x:Key="STL_JTWindow_Header_Button" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="FontFamily" Value="Webdings"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                            Margin="{TemplateBinding Margin}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                        <Grid>
+                            <Border x:Name="brdHighlight" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                            <ContentPresenter Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="brdHighlight" Property="Background" Value="#33ffffff"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
     <!-- JTWindow STYLE AND CONTROL TEMPLATE -->
     <Style TargetType="{x:Type local:JTWindow}">
         <Setter Property="WindowStyle" Value="None"/>
         <Setter Property="ResizeMode" Value="NoResize"/>
         <Setter Property="Background" Value="{StaticResource BRS_JTWindow_Background}"/>
+        <Setter Property="HeaderBarBackground" Value="{StaticResource BRS_JTWindow_Header_Background}"/>
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="BorderBrush" Value="{StaticResource BRS_JTWindow_Border}"/>
 
@@ -20,8 +56,14 @@
                 <ControlTemplate TargetType="{x:Type local:JTWindow}">
                     <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
                         <DockPanel>
-                            <TextBlock Text="{TemplateBinding Title}" DockPanel.Dock="Top"/>
-
+                            <Border DockPanel.Dock="Top" Background="{TemplateBinding HeaderBarBackground}" BorderBrush="Transparent" BorderThickness="0">
+                                <DockPanel>
+                                    <Button x:Name="btnClose" Style="{StaticResource STL_JTWindow_Header_Button}" Content="r" Padding="4,4,4,6" DockPanel.Dock="Right"/>
+                                    <Button x:Name="btnMaximizeRestore" Style="{StaticResource STL_JTWindow_Header_Button}" Content="1" Padding="4,4,4,6" DockPanel.Dock="Right"/>
+                                    <Button x:Name="btnMinimize" Style="{StaticResource STL_JTWindow_Header_Button}" Content="0" Padding="4,4,4,6" DockPanel.Dock="Right"/>
+                                    <TextBlock Text="{TemplateBinding Title}"/>
+                                </DockPanel>
+                            </Border>
                             <ContentPresenter/>
                         </DockPanel>
                     </Border>
