@@ -1,4 +1,4 @@
-﻿<jt:JTWindow x:Class="JerryThemeTest.MainWindow"
+﻿<jt:JTWindowFrame x:Class="JerryThemeTest.MainWindow"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,4 +9,4 @@
     <Grid Margin="16" Background="#ffffff">
         <Button x:Name="btnDUPA" Content="DUPA" Click="BtnDUPA_Click"/>
     </Grid>
-</jt:JTWindow>
+</jt:JTWindowFrame>

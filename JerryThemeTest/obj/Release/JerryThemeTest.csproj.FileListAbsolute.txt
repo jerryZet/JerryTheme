@@ -15,3 +15,6 @@ C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest
 C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.csproj.CopyComplete
 C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.exe
 C:\Users\aburn\source\repos\JerryTheme\JerryThemeTest\obj\Release\JerryThemeTest.pdb
+C:\Users\aburn\Source\Repos\JerryTheme\JerryThemeTest\bin\Release\JerryThemeTest.exe.config
+C:\Users\aburn\Source\Repos\JerryTheme\JerryThemeTest\obj\Release\TestWindow.g.cs
+C:\Users\aburn\Source\Repos\JerryTheme\JerryThemeTest\obj\Release\TestWindow.baml

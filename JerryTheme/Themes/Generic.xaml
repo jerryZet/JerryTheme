@@ -70,7 +70,7 @@
                                         <Button x:Name="btnClose" Style="{StaticResource STL_JTWindow_Header_Button}" Content="r" Padding="6,4,6,6" DockPanel.Dock="Right"/>
                                         <Button x:Name="btnMaximizeRestore" Style="{StaticResource STL_JTWindow_Header_Button}" Content="1" Padding="6,4,6,6" DockPanel.Dock="Right"/>
                                         <Button x:Name="btnMinimize" Style="{StaticResource STL_JTWindow_Header_Button}" Content="0" Padding="6,4,6,6" DockPanel.Dock="Right"/>
-                                        
+
                                         <!-- Window Title -->
                                         <TextBlock Text="{TemplateBinding Title}" Margin="8,0,0,0" FontWeight="Bold" VerticalAlignment="Center"/>
                                     </DockPanel>
@@ -81,7 +81,7 @@
                                 </AdornerDecorator>
                             </DockPanel>
                         </Border>
-                        
+
                         <!-- GRID for Window Resizing Hocks-->
                         <Grid x:Name="grdResizeHocks">
                             <Rectangle Stroke="{x:Null}" Fill="Transparent" VerticalAlignment="Top" Height="5" x:Name="top" Margin="5,0,5,0"/>
@@ -93,6 +93,60 @@
                             <Rectangle Stroke="{x:Null}" Fill="Transparent" HorizontalAlignment="Right" Width="5" Height="5" VerticalAlignment="Top" x:Name="topRight"/>
                             <Rectangle Stroke="{x:Null}" Fill="Transparent" HorizontalAlignment="Left" Width="6" VerticalAlignment="Top" Height="5" x:Name="topLeft"/>
                         </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="WindowState" Value="Maximized">
+                            <Setter TargetName="btnMaximizeRestore" Property="Content" Value="2"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+
+    <Style TargetType="{x:Type local:JTWindowFrame}">
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="Background" Value="{StaticResource BRS_JTWindow_Background}"/>
+        <Setter Property="HeaderBarBackground" Value="{StaticResource BRS_JTWindow_Header_Background}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BRS_JTWindow_Border}"/>
+        <Setter Property="MinHeight" Value="64"/>
+        <Setter Property="MinWidth" Value="128"/>
+        <Setter Property="WindowChrome.WindowChrome">
+            <Setter.Value>
+                <WindowChrome CaptionHeight="36" ResizeBorderThickness="4"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:JTWindowFrame}">
+                    <Grid>
+                        <!-- Outer Window border-->
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <DockPanel>
+                                <!-- Window Header Border-->
+                                <Border x:Name="brdWindowHeader" DockPanel.Dock="Top" Background="{TemplateBinding HeaderBarBackground}" BorderBrush="Transparent" BorderThickness="0">
+                                    <DockPanel>
+                                        <!-- Minimize, Maximize/Restore, Close Buttons -->
+                                        <DockPanel DockPanel.Dock="Right" WindowChrome.IsHitTestVisibleInChrome="True">
+                                            <Button x:Name="btnClose" Style="{StaticResource STL_JTWindow_Header_Button}" Content="r" Padding="6,4,6,6" DockPanel.Dock="Right"/>
+                                            <Button x:Name="btnMaximizeRestore" Style="{StaticResource STL_JTWindow_Header_Button}" Content="1" Padding="6,4,6,6" DockPanel.Dock="Right"/>
+                                            <Button x:Name="btnMinimize" Style="{StaticResource STL_JTWindow_Header_Button}" Content="0" Padding="6,4,6,6" DockPanel.Dock="Right"/>
+                                        </DockPanel>
+                                        <!-- Window Title -->
+                                        <TextBlock Text="{TemplateBinding Title}" Margin="8,0,0,0" FontWeight="Bold" VerticalAlignment="Center"/>
+                                    </DockPanel>
+                                </Border>
+                                <AdornerDecorator>
+                                    <!-- Window Content container -->
+                                    <ContentPresenter/>
+                                </AdornerDecorator>
+                            </DockPanel>
+                        </Border>
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="WindowState" Value="Maximized">

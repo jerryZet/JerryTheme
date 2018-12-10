@@ -18,7 +18,7 @@ namespace JerryThemeTest
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : jt.JTWindow
+    public partial class MainWindow : jt.JTWindowFrame
     {
         public MainWindow()
         {

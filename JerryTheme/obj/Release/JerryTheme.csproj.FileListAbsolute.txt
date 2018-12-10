@@ -5,4 +5,8 @@ C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csproj.
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csproj.CoreCompileInputs.cache
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.dll
 C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.pdb
-C:\Users\aburn\source\repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.csprojAssemblyReference.cache
+C:\Users\aburn\Source\Repos\JerryTheme\JerryTheme\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\aburn\Source\Repos\JerryTheme\JerryTheme\obj\Release\JerryTheme_MarkupCompile.cache
+C:\Users\aburn\Source\Repos\JerryTheme\JerryTheme\obj\Release\JerryTheme_MarkupCompile.lref
+C:\Users\aburn\Source\Repos\JerryTheme\JerryTheme\obj\Release\Themes\Generic.baml
+C:\Users\aburn\Source\Repos\JerryTheme\JerryTheme\obj\Release\JerryTheme.g.resources
